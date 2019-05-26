@@ -1,0 +1,1 @@
+# javabom-middle-register
