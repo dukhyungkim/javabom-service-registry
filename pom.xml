@@ -10,13 +10,13 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.gentooboy.javabom</groupId>
-  <artifactId>service-register</artifactId>
+  <artifactId>service-registry</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>service-register</name>
-  <description>JavaBom Project Service Register</description>
+  <name>service-registry</name>
+  <description>JavaBom Project Service Registry</description>
 
   <properties>
-    <java.version>1.8</java.version>
+    <java.version>11</java.version>
     <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
   </properties>
 
@@ -30,6 +30,11 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+      <version>2.1.5.RELEASE</version>
     </dependency>
   </dependencies>
 
