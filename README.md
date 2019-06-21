@@ -1,1 +1,1 @@
-# javabom-service-register
+# javabom-service-registry
